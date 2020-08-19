@@ -44,3 +44,15 @@
     9.2 git reset --hard Head~1  回退到上一版本  以此类推
     9.3 git reset --hard 版本号   可以精确的回到某一版本
     9.4 git reflog  可以查到所有版本的提交记录
+
+
+## 分支
+1，默认又一个主分支  master
+2，创建分支
+    git branch dev   创建了一个dev的分支
+3，切换分支
+    git checkout dev  切换到指定的分支
+    git branch  可以查看有哪些分支，带有*的为当前所在的分支
+4，在新的分支里可以提交新的文件
+5，合并分支
+    git merge dev 合并分支内容，把当前分支与指定分支（dev）合并
