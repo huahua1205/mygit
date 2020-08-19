@@ -40,4 +40,7 @@
     8.2 git log --oneline  查看简洁版的日志
 
 9，回退版本
-
+    9.1 git reset --hard Head~0  回退到上一版本
+    9.2 git reset --hard Head~1  回退到上一版本  以此类推
+    9.3 git reset --hard 版本号   可以精确的回到某一版本
+    9.4 git reflog  可以查到所有版本的提交记录
